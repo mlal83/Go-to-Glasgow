@@ -4,15 +4,40 @@
     padding: 0;
 }
 
-#center {
+h1 {
+    font-size: 300%;
+    padding-top: 13%;
+    padding-bottom: 3%;
+}
+
+#specialist {
+    padding-bottom: 7%
+}
+
+#about {
     text-align: center;
-    color: blue
+    color: blue;
+    
 }
 
 #glas-fam {
-    background-image: url("images/glas-fam.jpg");
+    background-image: url("../images/glas-fam.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+    
+}
+
+#why {
+    margin-top: 13%;
+}
+
+#why-glasgow {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10%
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -26,6 +51,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-size: cover;
 }
 
 /* This container is needed to position the front and back side */
@@ -65,4 +91,19 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+}
+
+#booking {
+    text-align: center;
+    font-size: 300%;
+}
+
+/*media query for tablets and larger*/
+@media (min-width: 768px) {
+
+    #attractions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
