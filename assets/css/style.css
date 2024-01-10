@@ -4,14 +4,20 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(238, 218, 138); 
+}
+
 h1 {
-    font-size: 300%;
+    font-size: 400%;
     padding-top: 13%;
     padding-bottom: 3%;
 }
 
 #specialist {
-    padding-bottom: 7%
+    padding-bottom: 7%;
+    margin-right: 5%;
+    margin-left:5%;
 }
 
 #about {
@@ -31,27 +37,42 @@ h1 {
 
 #why {
     margin-top: 13%;
+    font-size: 100px;
 }
 
 #why-glasgow {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 10%
+    padding: 10%;
+    margin-bottom: 10%;
+    font-size: 200%;
+    
+}
+
+#attractions {
+    color: blue;
+}
+
+#click {
+    margin: 10% 10% 10% 10%;
+    border: 5px dotted black;
+    padding: 12%;
+    text-align: center;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-    background-color: transparent;
+    background-color: rgb(238, 218, 138); 
     width: 400px;
     height: 500px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
+    margin-bottom: 120px;
 }
 
 /* This container is needed to position the front and back side */
@@ -84,6 +105,9 @@ h1 {
 .flip-card-front {
     background-color: #bbb;
     color: black;
+    background-color: rgb(238, 218, 138); 
+    font-size:200%;
+    border-color:rgb(238, 218, 138); 
 }
 
 /* Style the back side */
@@ -93,10 +117,40 @@ h1 {
     transform: rotateY(180deg);
 }
 
+p+a {
+    color: black;
+}
+
+#gsc {
+    font-size: 300%;
+    padding-top: 10%;
+}
+
+#skt {
+    font-size: 300%;
+    padding-top: 4%;
+}
+
+#x {
+    font-size: 300%;
+}
+
 #booking {
     text-align: center;
     font-size: 300%;
+    
 }
+
+#button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
 
 /*media query for tablets and larger*/
 @media (min-width: 768px) {
@@ -104,6 +158,28 @@ h1 {
     #attractions {
         display: flex;
         flex-wrap: wrap;
+        background-color: rgb(238, 218, 138); 
     }
 
+    #why-glasgow {
+       font-size: 50px;
+    }
+
+       #why {
+        font-size: 100px;
+       }
+    
+       #glas-fam {
+        background-image: url("../images/glas-fam.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 80vh;
+    }
+
+
 }
+
+
+
+
