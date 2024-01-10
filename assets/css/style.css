@@ -1,7 +1,7 @@
 /*navbar*/
 
 .container {
-    
+    justify-content: end;   
 }
 .navbar{
     display: flex;
@@ -12,7 +12,7 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
- 
+ justify-content: end;
 
 }
 
