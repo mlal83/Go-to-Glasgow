@@ -1,17 +1,9 @@
 /*navbar*/
 
 
-.navbar{
-    display: flex;
-    position:relative;
-    flex: wrap;
-    align-items: space-between;
-    padding: 0.5 rem 1rem;
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
- justify-content: end;
 
+.nav-item { 
+ 
 }
 
 .navbar-toggler-icon {
@@ -25,7 +17,7 @@
 
 }
 
-.navbar .navbar-nav a {
+.navbar-nav  {
 
     font-weight: bold;
 
