@@ -1,0 +1,32 @@
+/*navbar*/
+
+.container {
+    
+}
+.navbar{
+    display: flex;
+    position:relative;
+    flex: wrap;
+    align-items: space-between;
+    padding: 0.5 rem 1rem;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+ 
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+
+}
+
+.navbar .navbar-nav a {
+
+    font-weight: bold;
+
+}
