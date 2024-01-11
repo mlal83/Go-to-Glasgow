@@ -57,18 +57,32 @@ body {
    
 }
 
-#gotoglasgow {
-    font-size: 400%;
-    padding-bottom: 100px;
-    margin-top: 126px;
+/*main sections */
 
+h1 {
+    font-size: 700px;
+    padding-bottom: 120px;
+    margin-top: 180px;
+    color:rgb(32, 112, 187);
+    font-size: 700%;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
     
+
 }
 
 #specialist {
     padding-bottom: 7%;
     margin-right: 5%;
     margin-left:5%;
+    font-size: 300%;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+     text-shadow: 5px 5px black;
+     background-color: rgba(0, 0, 0, 0.5)
+      
+    
 }
 
 #about {
@@ -87,6 +101,23 @@ body {
     margin-top:126px;
     margin-left: 0;
     padding-left: 0;
+    
+    
+
+    
+    
+    
+}
+
+
+
+h1 {
+
+}
+
+
+#top-heading {
+    font-weight: 200;
     
     
 }
@@ -121,14 +152,14 @@ body {
 .flip-card {
     background-color: rgb(238, 218, 138); 
     width: 400px;
-    height: 500px;
+    height: 600px;
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
     display: block;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 /* This container is needed to position the front and back side */
@@ -201,13 +232,16 @@ p+a {
 
 #button {
     background-color: #04AA6D; /* Green */
-    border: none;
+    border: solid 4px black;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
   }
 
 /*media query for tablets and larger*/
@@ -234,17 +268,24 @@ p+a {
         background-repeat: no-repeat;
         width: 100vw;
         height: 100vh;
-        background-position: center;
-        
-      
-       
-        
-       
+        background-position: center
         
         
         
     }
+}
 
+@media (min-width: 1100px) {
+
+         #glas-fam {
+            max-width: 1100px;
+            margin: auto;
+            margin-top: 126px;
+
+         }
+        
+
+}
 
 
 
