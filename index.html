@@ -18,71 +18,211 @@
 <body>
   <!--Nav-->
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-success fixed-top">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/assets/images/go_to_glasgow_logo.jpg"
-          alt="logo"
-          width="110"
-          height="100"
-        />
-      </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navmenu"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span> 
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ml-auto ">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#attractions"> Attractions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      
-    </nav>
-    
-<!--Signup form-->
-<section id="contact">
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-3 readingnewsletter"></div>
-      <div class="col-6 lightbluebackground">
-        <form>
-          <div class="form-group">
-            <label for="InputEmail">Email address</label>
-            <input type="email" class="form-control border border-dark" id="InputEmail" placeholder="Enter email"
-              required>
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="CheckForNews" required>
-              <label class="form-check-label" for="CheckForNews">
-                Check this box to recieve our newsletter
-              </label>
-            </div>
-          </div>
-          <button class="btn btn-primary" type="submit">Sign up to our newsletter</button>
-        </form>
-      </div>
-      <div class="col-3 trailbackground"></div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-success fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/images/go_to_glasgow_logo.jpg" alt="logo" width="110" height="100" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#attractions"> Attractions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </div>
-</section>
+
+  </nav>
+
+  <!-- Main content-->
+  <section id="about">
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12" id="glas-fam">
+
+          <div id="gotoglasgow">
+            <h1>
+              Go to Glasgow
+            </h1>
+          </div>
+          <h5 id="specialist">
+            <em>Specialist in Glasgow Travel - Partnered with <strong>Viator</strong></em>
+          </h5>
+        </div>
+      </div>
+      <h3 id="why">Why Go to Glasgow?
+      </h3>
+      <p id="why-glasgow">Glasgow is known for its beautiful parks, football stadiums, and fun museums, making it one of
+        the most
+        family-friendly cities in Scotland. The city centre has a colourful backdrop of quirky graffiti and art
+        installations by renowned street artists, giving you plenty of beautiful snapshots.</p>
+    </div>
+  </section>
+  <h2 id="click">Click on Attractions for More Information! <br> <i class="fas fa-hand-point-down fa-lg"
+      style="color: #000000;"></i>
+  </h2>
+  <section id="attractions">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> Bellahouston Park
+          <img src="assets/images/Bellahouston_Park.jpg" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Bellahouston Park</h1>
+          <br>
+          <p>This extensive park (68.4 Hectares/ 169 Acres) has many features and facilities. It boasts formal gardens
+            and open parkland in which to relax and take in views over the city. Quiet contemplation can also be had at
+            the House for an Art Lover and for the more active and adventurous there are extensive sports facilities.
+          </p> <a href="https://www.glasgow.gov.uk/index.aspx?articleid=16580">Bellahouston Park</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> Cuninger Loop
+          <img src="assets/images/cuninger_loop.jpg" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Cuninger Loop</h1>
+          <br>
+          <p>Cuningar Loop is an exciting woodland park on the banks of the River Clyde. Enjoy a stroll along the
+            riverside boardwalk or forest trails. Relax with a picnic in the large open meadow. Get active at our bike
+            skills area or go adventuring in Scotland's first outdoor bouldering park.</p>
+          <a href="https://forestryandland.gov.scot/visit/cuningar-loop">Cuninger Loop</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> Glasgow Science Centre
+          <img src="assets/images/Glasgow_science_centre.jpg" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h2 id="gsc">Glasgow Science Centre</h2>
+          <br>
+          <p>Rated 5 stars by VisitScotland, People's Palace provides programs of entertaining Science theatre, a
+            Planetarium, and around 300 hands-on interactive science exhibits over three floors, to introduce science to
+            everyone. "BodyWorks"
+            examines the science behind human health and well-being, "Powering the Future" the future challenges and
+            solutions in our energy-hungry world, and the digital planetarium allows visitors to 'leave earth' and
+            travel
+            through the cosmos.</p>
+          <a href="https://www.glasgowsciencecentre.org/">Glasgow Science Centre</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> People's Palace
+          <img src="assets/images/peoples_palace.jpg" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>People's Palace</h1>
+          <br>
+          <p>The People's Palace is home to a collection of objects, photographs, prints and film which give a unique
+            view
+            into how Glaswegians lived, worked and played in years gone by to the present day.
+            All set against the backdrop of historic Glasgow Green.
+          </p>
+          <a href="https://www.glasgowlife.org.uk/museums/venues/peoples-palace">People's Palace</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> Sharmanka Kinetic Theatre
+          <img src="assets/images/Sharmanka_Kinetic_Theatre.jpg" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h2 id="skt">Sharmanka Kinetic Theatre</h2>
+          <p>SHARMANKA is one of the most popular and unique attractions in Glasgow. It has been entertaining and
+            enthralling audiences for over three decades since its original opening in 1989. Sharmanka was founded by
+            sculptor-mechanic Eduard Bersudsky and theatre director Tatyana Jakovskaya in
+            St.Petersburg (Russia) and moved to Scotland in mid-90s. With an extensive record of national and
+            international tours and exhibitions, audiences in many countries have been fascinated by Sharmanka’s magic.
+            Its dynamic shows are layered with cross-cultural stories, full of multi-sensory experience and loved across
+            all generations.</p>
+          <a href="https://sharmanka.com/">Sharmanka Kinetic Theatre</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front"> XSite Braehead
+          <img src="assets/images/XSiteBraehead.webp" alt="Avatar" style="width:400px;height:500px;">
+        </div>
+        <div class="flip-card-back">
+          <h1 id="x">XSite Braehead</h1>
+          <br>
+          <p>XSite at Braehead is Scotland’s most unique entertainment destination! It has everything you could want
+            under
+            one roof. Catch the latest blockbusters at the cinema, go bowling for some friendly competition for all the
+            family or
+            why not test your skills at Laser tag!
+
+            When it’s time to refuel and relax after your busy day of fun- XSite has also got you covered! With an
+            abundance of bars and restaurants to satisfy your cravings- there’s something for everyone!
+
+            PLUS we have free parking available- what more could you ask for?</p>
+          <a href="https://xsitebraehead.com/">XSite Braehead</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="booking">
+    <a id="button" href="https://www.viator.com/"> Click here to book your favorite excursion at Viator.com</a>
+
+  </section>
+
+
+
+  <!--Signup form-->
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-3 readingnewsletter"></div>
+        <div class="col-6 lightbluebackground">
+          <form>
+            <div class="form-group">
+              <label for="InputEmail">Email address</label>
+              <input type="email" class="form-control border border-dark" id="InputEmail" placeholder="Enter email"
+                required>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="CheckForNews" required>
+                <label class="form-check-label" for="CheckForNews">
+                  Check this box to recieve our newsletter
+                </label>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Sign up to our newsletter</button>
+          </form>
+        </div>
+        <div class="col-3 trailbackground"></div>
+      </div>
+    </div>
+  </section>
 
   <!--Footer-->
   <footer class="container-fluid bg-dark fixed-bottom">
