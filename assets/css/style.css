@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /*navbar*/
 
 
@@ -23,6 +29,11 @@
 
 }
 
+.navbar {
+    display:block;
+    
+}
+
 .trailbackground{
     background-image: url("../images/Glasgowtrail.webp");
     background-repeat: no-repeat;
@@ -39,3 +50,204 @@
 .lightbluebackground{
     background-color: lightblue;
 }
+
+
+body {
+    background-color: rgb(238, 218, 138); 
+   
+}
+
+#gotoglasgow {
+    font-size: 400%;
+    padding-bottom: 100px;
+    margin-top: 126px;
+
+    
+}
+
+#specialist {
+    padding-bottom: 7%;
+    margin-right: 5%;
+    margin-left:5%;
+}
+
+#about {
+    text-align: center;
+    color: blue;
+    
+}
+
+#glas-fam {
+    background-image: url("../images/glas-fam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    margin-top:126px;
+    margin-left: 0;
+    padding-left: 0;
+    
+    
+}
+
+#why {
+    margin-top: 13%;
+    font-size: 70px;
+}
+
+#why-glasgow {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 10%;
+    font-size: 200%;
+    
+}
+
+#attractions {
+    color: blue;
+}
+
+#click {
+    margin: 10% 10% 10% 10%;
+    border: 5px dotted black;
+    padding: 12%;
+    text-align: center;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: rgb(238, 218, 138); 
+    width: 400px;
+    height: 500px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+    background-color: rgb(238, 218, 138); 
+    font-size:200%;
+    border-color:rgb(238, 218, 138); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+p+a {
+    color: black;
+}
+
+#gsc {
+    font-size: 300%;
+    padding-top: 10%;
+}
+
+#skt {
+    font-size: 300%;
+    padding-top: 4%;
+}
+
+#x {
+    font-size: 300%;
+}
+
+#booking {
+    text-align: center;
+    font-size: 300%;
+    
+}
+
+#button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+/*media query for tablets and larger*/
+@media (min-width: 768px) {
+
+    #attractions {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(238, 218, 138); 
+    }
+
+    #why-glasgow {
+       font-size: 50px;
+    }
+
+       #why {
+        font-size: 100px;
+       }
+
+       
+       #glas-fam {
+        background-image: url("../images/glas-fam.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+        
+      
+       
+        
+       
+        
+        
+        
+    }
+
+
+
+
+
+
+
