@@ -249,6 +249,10 @@ p+a {
     margin-bottom: 10%;
   }
 
+  #contact{
+    margin-bottom: 72px;
+  }
+
 /*media query for tablets and larger*/
 @media (min-width: 768px) {
 
@@ -292,5 +296,3 @@ p+a {
 
 
 }
-
-
