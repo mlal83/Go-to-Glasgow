@@ -4,6 +4,49 @@
     padding: 0;
 }
 
+/*navbar*/
+
+
+
+.nav-item { font-size: x-large;
+
+}
+
+.navbar-toggler-icon {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+ 
+
+.navbar-brand {
+    font-weight: bold;
+
+}
+
+.navbar-nav  {
+
+    font-weight: bold;
+
+}
+
+.trailbackground{
+    background-image: url("../images/Glasgowtrail.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.readingnewsletter{
+    background-image: url("../images/readingnewsletter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.lightbluebackground{
+    background-color: lightblue;
+}
+
+
 body {
     background-color: rgb(238, 218, 138); 
    
