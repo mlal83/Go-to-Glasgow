@@ -22,3 +22,20 @@
     font-weight: bold;
 
 }
+
+.trailbackground{
+    background-image: url("../images/Glasgowtrail.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.readingnewsletter{
+    background-image: url("../images/readingnewsletter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.lightbluebackground{
+    background-color: lightblue;
+}
