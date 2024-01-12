@@ -92,11 +92,6 @@ h1 {
     margin-bottom: 0%;
 }
 
-
-
-
-
-
 #top-heading {
     font-weight: 200;
 
@@ -186,7 +181,7 @@ h1 {
     background-color: #bbb;
     color: rgb(32, 112, 187);
     background-color: rgb(238, 218, 138);
-    font-size: 200%;
+    font-size: 150%;
     border-color: rgb(238, 218, 138);
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,7 +261,6 @@ footer {
     #specialist {
         margin-top: 230px;
     }
-
 
 }
 
