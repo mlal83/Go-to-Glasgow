@@ -42,4 +42,4 @@ https://www.youtube.com/watch?v=4sosXZsdy-s&t=817s
 
 ## Key gratitude 
 
-Thank you for the great support us developers had recieved from code institude. The valuable guidance and support we got from David Calikes, Martin and Kevin has helped us developers being able to understand each aspect of the project and assistance where required. 
+Thank you for the great support us developers had recieved from code institude. The valuable guidance and support we got from David Calikes, Martin and Kevin has helped us developers being able to understand each aspect of the project and have provided us with full support where required. 
