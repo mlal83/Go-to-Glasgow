@@ -73,6 +73,7 @@ h1 {
      text-shadow: 5px 5px black;
      background-color: rgba(0, 0, 0, 0.5);
      margin-bottom: 0%;
+     margin-top: 95px
 
       
     
@@ -146,6 +147,13 @@ h1 {
     
 }
 
+#flipcardformat {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     
@@ -208,20 +216,6 @@ p+a {
     color: black;
 }
 
-#gsc {
-    font-size: 300%;
-    padding-top: 10%;
-}
-
-#skt {
-    font-size: 300%;
-    padding-top: 4%;
-}
-
-#x {
-    font-size: 300%;
-}
-
 #booking {
     text-align: center;
     font-size: 300%;
@@ -246,8 +240,15 @@ p+a {
     margin-bottom: 72px;
   }
 
+  @media (max-width: 454px) {
+
+    #glas-fam {
+       min-width: 454px;
+
+    }
+}
 /*media query for tablets and larger*/
-@media (min-width: 768px) {
+@media (min-width: 755px) {
 
     #attractions {
         display: flex;
@@ -275,6 +276,18 @@ p+a {
         
     }
 
+    #specialist {
+        margin-top: 95px;
+    }
+
+
+}
+
+@media (min-width: 786px) {
+    #specialist {
+        margin-top: 230px;
+    }
+
 
 }
 
@@ -287,5 +300,8 @@ p+a {
 
     }
 
+   
+
 
 }
+
