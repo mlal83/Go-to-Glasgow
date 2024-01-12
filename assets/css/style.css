@@ -40,9 +40,8 @@
 
 .contactbackground {
     background-color: #add8e6;
-    padding: 0;
+    padding: 0 15px;
 }
-
 
 body {
     background-color: rgb(238, 218, 138);
@@ -231,11 +230,6 @@ p+a {
 
 footer {
     font-size: 0.5em;
-}
-
-.addpadding {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 /*media query for tablets and larger*/
