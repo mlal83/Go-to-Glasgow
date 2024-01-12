@@ -6,6 +6,16 @@ Sam Danzig,
 Daniel Favell,
 Manjula Lal,
 
+Contents
+
+1. Benefits and Purpose of Website
+2. Contents of Website and Key Features
+3. Bugs Fixed and Unfixed
+4. Development Strategy and UX considerations
+5. Future Features and Modifications
+6. Testing
+7. Credits
+8. Key gratitude
 
 ## Benefits and Purpose of Website
 
@@ -41,6 +51,8 @@ Future features should include hidden section headings for SEO and screen reader
 ## Testing
 The website was tested after deployment on the W3C HTML and CSS checkers, as well as the WCAG colour contrast checker.
 ![CSS Validation](readme-images/css-validation.png)
+
+
 ![HTML Validation](readme-images/html-validator.png)
 
 ## Credits
