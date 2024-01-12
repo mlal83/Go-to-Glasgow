@@ -32,21 +32,14 @@
     
 }
 
-.trailbackground{
-    background-image: url("../images/Glasgowtrail.webp");
-    background-repeat: no-repeat;
-    background-position: center;
+.imagesize{
+    width: 25vw;
+    height: 100%;
 }
 
-.readingnewsletter{
-    background-image: url("../images/readingnewsletter.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
-.lightbluebackground{
-    background-color: lightblue;
+.contactbackground{
+    background-color: #add8e6;
+    padding:0;
 }
 
 
