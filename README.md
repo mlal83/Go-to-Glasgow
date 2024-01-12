@@ -45,8 +45,7 @@ The website was tested after deployment on the W3C HTML and CSS checkers, as wel
 
 ## Credits
 
-The logo was generated using the AI logo generator site Looka.com. Font Awesome was used for icons and Google Fonts was used for fonts. W3 Schools was regularly referred to during the development process, and the code for the 'flipcards' as well as the button which links to the 'Viator' booking website were taken from there.
-Tutorials were also looked at to enhance knowledge material and the bootstrap website was used to attain code and links and scripts.
+The logo was generated using the AI logo generator site Looka.com. Font Awesome was used for icons and Google Fonts was used for fonts. W3 Schools was regularly referred to during the development process, and the code for the 'flipcards' as well as the button which links to the 'Viator' booking website were taken from there. Code from the bootstrap documentation was used to create the containers on the website, and the signup form. The code to create the social media icons in the footer was taken from the LoveRunning project and modified to fit our needs. Tutorials were also looked at to enhance knowledge material and the bootstrap website was used to attain code and links and scripts.
 https://www.youtube.com/watch?v=31wzhvz0vsw 
 https://www.youtube.com/watch?v=4sosXZsdy-s&t=817s
 Used the loverunning ReadMe file to help create the images of this ReadMe
