@@ -33,7 +33,7 @@
 }
 
 .imagesize{
-    width: 25vw;
+    max-width: 100%;
     height: 100%;
 }
 
