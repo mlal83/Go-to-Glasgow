@@ -37,8 +37,9 @@
     height: 100%;
 }
 
-.lightbluebackground{
-    background-color: lightblue;
+.contactbackground{
+    background-color: #add8e6;
+    padding:0;
 }
 
 
