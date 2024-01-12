@@ -24,11 +24,11 @@ A major problem was that the central hero image would not remain with a fixed to
 ## Development Strategy and UX considerations
 Using Figma as a wireframe development tool, a visual draft was drawn up of the website, where it was agreed that having only one page would express a mobile first orientation and provide ease of use across larger screen sizes too. 
 
-![figma design] (readme-images/figma_design.png)
+![figma design](readme-images/figma_design.png)
 
 Using Trello, a popular project board, we designed user stories and distributed work. Work that was not going to be completed within the iteration time will be put in another list for the second iteration.
 
-![Trello] (readme-images/trello.png)
+![Trello](readme-images/trello.png)
 
 It was decided that the header and footer would be floating for convenience and that 'flipcard' interaction would be used for the main content of the website. The flipcard design would make the page aesthetically clean and simple and create a positive user experience. In addition, a colour scheme was chosen of blues and beiges, originally because the icon for 'Go to Glasgow' had been a blue colour. Other ideas at this stage of development were trialled too, including having a live-chat option and a 'share with friends' feature for the various attractions, however these were discarded through implementaion of user stories where it was felt that they would not provide enough benefit to justify their use.
 
