@@ -23,6 +23,7 @@ A major problem was that the central hero image would not remain with a fixed to
 
 ## Development Strategy and UX considerations
 Using Figma as a wireframe development tool, a visual draft was drawn up of the website, where it was agreed that having only one page would express a mobile first orientation and provide ease of use across larger screen sizes too. 
+
 ![figma design] (readme-images/figma_design.png)
 
 Using Trello, a popular project board, we designed user stories and distributed work. Work that was not going to be completed within the iteration time will be put in another list for the second iteration.
@@ -39,7 +40,9 @@ Future features should include hidden section headings for SEO and screen reader
 
 ## Testing
 The website was tested after deployment on the W3C HTML and CSS checkers, as well as the WCAG colour contrast checker.
-![CSS Validation](readme-images/figma_design.png))
+![CSS Validation](readme-images/css-validation.png)
+![HTML Validation](readme-images/html-validator.png)
+
 ## Credits
 
 The logo was generated using the AI logo generator site Looka.com. Font Awesome was used for icons and Google Fonts was used for fonts. W3 Schools was regularly referred to during the development process, and the code for the 'flipcards' as well as the button which links to the 'Viator' booking website were taken from there.
